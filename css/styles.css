@@ -1,7 +1,7 @@
-.body{
-    font-family:"Roboto", sans-serif;
-    color:#434455 ;
-    background-color: #FFFFFF;
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 /* common */
 a{
@@ -10,7 +10,6 @@ a{
 }
 ul,ol{
     list-style-type: none;
-    display: inline-block;
     margin-right: 10px;
 }
 /* Header */
@@ -35,7 +34,6 @@ ul,ol{
     color: #2E2F42;
 }
 a{
-    display: block;
     padding: 5px 10px;
     text-decoration: none;
 }
