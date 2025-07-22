@@ -42,10 +42,10 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42 ; 
-    color: #434455;
 }
 .menu-nav-link:hover,
 .menu-nav-link:focus{
+    color: #404bbf;
 background-color: #404bbf;
 }
 .adres-clas{
