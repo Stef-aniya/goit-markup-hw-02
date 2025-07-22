@@ -28,6 +28,12 @@ ul,ol{
     padding: 0;
     margin: 0;
 }
+.logo-part{
+    color: #2E2F42;
+}
+.menu-list-item{
+    color: #2E2F42;
+}
 a{
     display: block;
     padding: 5px 10px;
@@ -47,7 +53,7 @@ a{
 color: #404bbf ;
 color: #404bbf;
 }
-.adres{
+.adres-clas{
     font-style: normal;
 }
 /* Solutions */
@@ -59,7 +65,7 @@ color: #404bbf;
 .main{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -70,7 +76,7 @@ color: #404bbf;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #404BBF;
+    background-color: #4d5ae5;
     color: #FFFFFF;
     box-sizing: border-box;
     text-align: center;
@@ -80,6 +86,7 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    cursor: pointer;
 }
  /* Strategy */
 .main-items{
@@ -98,6 +105,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color: #434455;
 }
 .shadow{
     color: #FFFFFF
@@ -105,12 +113,13 @@ letter-spacing: 0.02em;
 .Team{
     width: 1440px;
     height: 732px;
-    color: #F4F4FD;
+    background-color: #F4F4FD;
+
 }
 .our-team{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -123,6 +132,9 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-align: center;
     color:#2E2F42 ;
+}
+.team-person{
+    background-color: #FFFFFF;
 }
 .team-info{
     font-weight: 400;
@@ -161,6 +173,9 @@ color: #434455;
     height: 312px;
    background-color: #2E2F42;
    
+}
+.copywrite-part{
+    color: #F4F4FD;
 }
 .foot-logo{
     color: #FFFFFF;
