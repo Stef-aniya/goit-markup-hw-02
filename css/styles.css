@@ -46,10 +46,17 @@ a{
 .menu-nav-link:hover,
 .menu-nav-link:focus{
     color: #404bbf;
-background-color: #404bbf;
 }
 .adres-clas{
     font-style: normal;
+    
+}
+.menu-list-link{
+    color: #434455;
+}
+.menu-list-link:hover,
+.menu-list-link:focus{
+ color: #404bbf;
 }
 /* Solutions */
 .solutions{
@@ -78,6 +85,11 @@ background-color: #404bbf;
     color: #FFFFFF;
     cursor: pointer;
 }
+.button-order:hover,
+.button-order:focus{
+    background-color: #404bbf;
+}
+
  /* Strategy */
 .main-items{
     font-size: 20px;
