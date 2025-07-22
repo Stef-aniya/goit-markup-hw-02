@@ -46,7 +46,6 @@ a{
 }
 .menu-nav-link:hover,
 .menu-nav-link:focus{
-color: #404bbf ;
 background-color: #404bbf;
 }
 .adres-clas{
@@ -81,12 +80,13 @@ background-color: #404bbf;
 }
  /* Strategy */
 .main-items{
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
-width: 264px;
-height: 104px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    width: 264px;
+    height: 104px;
+    font-weight: 500;
 }
 .main-items-text{
 width: 264px;
