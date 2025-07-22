@@ -53,6 +53,9 @@ a{
 }
 .menu-list-link{
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
 }
 .menu-list-link:hover,
 .menu-list-link:focus{
