@@ -1,3 +1,16 @@
+/* Raleway */
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+/* Roboto */
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* common */
 a{
     text-decoration: none;
@@ -5,33 +18,196 @@ a{
 }
 ul,ol{
     list-style-type: none;
-}
-.nav{
-    background-color: white;
-}
-.WebStudio{
-    color: rgb(100, 149, 237);
-    width: 115px;
-    height: 24px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 156px;
-}
-.menu-nav{
-    width: 261px;
-    height: 24px;
-    list-style: none;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: rgb(25, 25, 112);
-}
-.menu-nav li{
     display: inline-block;
     margin-right: 10px;
 }
-.Solutions{
-    background-color: rgb(25, 25, 112);
+:root{
+    /* Fonts */
+    --main-font:"Roboto",sans-serif;
+    --second-family: "Raleway", sans-serif;
 }
+    /* Colors */
+    --color-iris #4D5AE5 
+    --color-ocean #404BBF  
+    --color-navy-blue #2E2F42
+    --color-green #31D0AA
+    --color-slate #434455 
+    --color-light-slate #8E8F99
+    --color-corn #E7E9FC
+    --color-cloud #F4F4FD 
+    --color-navy-blue-mod #2E2F42
+    --color-grey #2E2F42
+    --color-white #FFFFFF 
+    --color-dairy #FCFCFC
+/* Header */
+.body{
+    font-family:"Roboto", sans-serif;
+    color:#434455 ;
+    background-color: #FFFFFF;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    color: #2e2f42;
+}
+.menu-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.menu-nav-link{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42; 
+    color: #434455;
+}
+.menu-nav-link:hover,
+.menu-nav-link:focus{
+color: #404bbf ;
+color: #404bbf;
+}
+.adres{
+    font-style: normal;
+}
+/* Solutions */
+.solutions{
+    width: 1440px;
+    height: 600px;
+    background-color:var(--color-navy-blue) ;
+}
+.main{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--color-white);
+}
+.button-order{
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: var(--color-ocean);
+    color: var(--color-white);
+    box-sizing: border-box;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+}
+ /* Strategy */
+.main-items{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-grey);
+width: 264px;
+height: 104px;
+text-align: left;
+}
+.main-items-text{
+width: 264px;
+height: 104px;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+box-sizing: border-box;
+}
+.shadow{
+    color: var(--color-white);
+}
+.Team{
+    width: 1440px;
+    height: 732px;
+    color: var(--color-cloud);
+}
+.our-team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color:var(--color-navy-blue) ;
+}
+.team-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color:var(--color-navy-blue) ;
+}
+.team-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color:var(--color-slate) ;
+}
+/* Portfolio */
+.portfolio{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-navy-blue);
+}
+.head-portfolio{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+.main-portfolio{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+}
+.footer{
+    width: 1440px;
+    height: 312px;
+   background-color: var(--color-navy-blue);
+   
+}
+.foot-logo{
+    color: var(--color-white);
+}
+.foot-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-cloud);
+ }
