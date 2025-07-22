@@ -63,8 +63,6 @@ a{
 }
 /* Solutions */
 .solutions{
-    width: 1440px;
-    height: 600px;
     background-color:#2E2F42 ;
 }
 .main{
@@ -75,8 +73,6 @@ a{
     color: #FFFFFF;
 }
 .button-order{
-    width: 169px;
-    height: 56px;
     background-color: #4d5ae5;
     color: #FFFFFF;
     text-align: center;
@@ -99,13 +95,9 @@ a{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    width: 264px;
-    height: 104px;
     font-weight: 500;
 }
 .main-items-text{
-width: 264px;
-height: 104px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -172,8 +164,6 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .footer{
-    width: 1440px;
-    height: 312px;
    background-color: #2E2F42;
    
 }
