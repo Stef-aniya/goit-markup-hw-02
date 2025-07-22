@@ -54,6 +54,8 @@ background-color: #404bbf;
 }
 /* Solutions */
 .solutions{
+    width: 1440px;
+    height: 600px;
     background-color:#2E2F42 ;
 }
 .main{
@@ -64,6 +66,8 @@ background-color: #404bbf;
     color: #FFFFFF;
 }
 .button-order{
+    width: 169px;
+    height: 56px;
     background-color: #4d5ae5;
     color: #FFFFFF;
     text-align: center;
@@ -81,8 +85,12 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
+width: 264px;
+height: 104px;
 }
 .main-items-text{
+width: 264px;
+height: 104px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -103,6 +111,7 @@ color: #434455;
     text-align: center;
     text-transform: capitalize;
     color:#2E2F42 ;
+
 }
 .team-name{
     font-weight: 500;
@@ -127,7 +136,7 @@ color: #434455;
 .portfolio{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -148,7 +157,10 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .footer{
+    width: 1440px;
+    height: 312px;
    background-color: #2E2F42;
+   
 }
 .copywrite-part{
     color: #F4F4FD;
