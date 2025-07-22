@@ -41,7 +41,7 @@ a{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42; 
+    color: #2e2f42 ; 
     color: #434455;
 }
 .menu-nav-link:hover,
@@ -59,7 +59,6 @@ color: #404bbf;
     background-color:#2E2F42 ;
 }
 .main{
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -67,10 +66,8 @@ color: #404bbf;
     color: #FFFFFF;
 }
 .button-order{
-    border-radius: 4px;
     width: 169px;
     height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
     color: #FFFFFF;
     text-align: center;
@@ -84,7 +81,6 @@ color: #404bbf;
 }
  /* Strategy */
 .main-items{
-font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -105,8 +101,6 @@ color: #434455;
     color: #FFFFFF
 }
 .Team{
-    width: 1440px;
-    height: 732px;
     background-color: #F4F4FD;
 
 }
